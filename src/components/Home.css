@@ -1,0 +1,65 @@
+section {
+    display: flex;
+    justify-content: center;   
+}
+
+.listaTodos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    margin: 10px;
+    border-width: 2px;
+}
+
+h2{
+    font-family: 'Fredoka One', cursive;
+    -webkit-text-stroke: 1px black; /* width and color */
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.listaTodos ul{
+    border-style: solid;
+    background-color: wheat;
+    
+}
+.listaTodos li{
+    display: block;  
+    align-items: center;
+}
+.listaTodos li span{
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+.liTodoFeito {
+    text-decoration: line-through;
+}
+
+.liTodoNaoFeito {
+    text-decoration: green;
+}
+
+Form{
+    display: flex;
+    justify-content: center;
+}
+
+.botaoTodo img{
+    width: 24px;
+    height: 24px;
+}
+
+.botaoTodo{
+    align-items: center;
+    border: 0;
+    background: transparent;
+    margin: 5px;
+    padding: 0px;
+}
+
+
